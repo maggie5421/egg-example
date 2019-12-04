@@ -26,7 +26,7 @@ module.exports = appInfo => {
       mapping: {
         '.tpl': 'nunjucks',
       },
-    }
+    },
   };
 
 
