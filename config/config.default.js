@@ -49,6 +49,16 @@ module.exports = appInfo => {
     // 是否加载到 agent 上，默认关闭
     agent: false,
   };
+
+  config.webpack = {
+    enable: true,
+    package: 'egg-webpack'
+  };
+  
+  config.webpackvue = {
+    enable: true,
+    package: 'egg-webpack-vue'
+  };
   return {
     ...config,
     ...userConfig,
